@@ -1,0 +1,106 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #FFD700;
+    overflow-x: hidden;
+}
+
+.hea {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('pasta1/background.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #FFD700;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hea h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+.info{
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(50, 50, 50, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FFD700;
+    text-transform: uppercase;
+}
+
+.info p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #f5f5f5;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #dcdcdc;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+#bg1 {
+    height: 1000px;
+    width: 100%;
+    background-image: url('pasta1/utopia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bg2 {
+    height: 1000px;
+    width: 100%;
+    background-image: url('pasta1/huayra.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bg3 {
+    height: 1000px;
+    width: 100%;
+    background-image: url('pasta1/zonda.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

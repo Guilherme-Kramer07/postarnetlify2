@@ -1,0 +1,145 @@
+body {
+    background-color:#A8A9AD;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#secaovideo {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+   
+    padding: 50px;
+}
+
+#titulovideo {
+    padding: 50px;
+    background-color: rgba(34, 34, 34, 0.8); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    color: white; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-left: 10px;
+}
+
+#textovideo {
+    display: flex;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFD700;
+    background-color: rgba(34, 34, 34, 0.8); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    color: white; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+p,
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+#cards {
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.card {
+    margin-left: 50px;
+    transition: transform 0.3s ease;
+}
+
+#Bruna {
+    display: none;
+}
+
+.seta:hover {
+    transform: translateX(7px);
+}
+
+.seta{
+    margin-top: 50%;
+    cursor: pointer ;
+}
+
+#opa
+{
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#Bruna{
+    width: 500px;
+    height: 300px;
+}
+
+#Leonardo{
+    width: 500px;
+    height: 300px;
+}
+
+#Samanta{
+    width: 500px;
+    height: 300px;
+}
+
+#cab {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; 
+      transform: translateY(-20px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #tit {
+    color: #FFD700;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeIn 2s ease-out; /* Adiciona a animação ao título */
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  h5
+  {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+
+  
